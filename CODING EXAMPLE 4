@@ -1,0 +1,33 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+// generate a random number to be guessed
+		Scanner obj =new Scanner(System.in);
+		int number = (int)(Math.random()*101);
+		int j, i=-1;
+		System.out.println(" guessed the number!!");
+		System.out.println("");
+		
+		 
+		 while(i!= number) {
+			 System.out.println("Enter random number between 0 -100");
+			 j = obj.nextInt();
+			 
+			 if (j== number) {
+			 System.out.println("CONGRATULATIONS!!");}
+			 else if (j<=number) {
+			 System.out.println(" SORRY YOUR NUMBER IS SMALLER");}
+			 else {
+				 System.out.println("SORRY YOUR NUMBER IS LARGER");}
+			 
+		 }
+	
+	     
+	        	
+	        }
+}
+
+

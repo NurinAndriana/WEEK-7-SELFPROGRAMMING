@@ -1,0 +1,36 @@
+package selfProgramming;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   int x = 0;
+   int y = 1;
+   
+     while(y<=20) {
+    	 
+    	 x = x+y;
+    	 y=  y+5;
+      System.out.println(" y=" +y);
+      System.out.println(" x=" +x);
+     }
+     
+     do {
+    	 x = x+y;
+    	 y=  y+5;
+      System.out.println(" y=" +y);
+      System.out.println(" x=" +x);
+     } while(y<=20);
+     
+     
+     for(y=1; y<=20;) {
+    	 x = x+y;
+    	 y=  y+5;
+      System.out.println(" y=" +y);
+      System.out.println(" x=" +x);
+      x++;
+      y++;
+     }
+	}
+
+}

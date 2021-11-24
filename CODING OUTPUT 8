@@ -1,0 +1,21 @@
+package selfProgramming;
+
+public class Example8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  // calculate the sum of all even numbers from 2 to 100
+		
+		int counter;
+		int sum =0;
+		
+		for(counter=2; counter<=100; counter = counter+2) {
+		 
+			sum = sum+counter;
+			
+	     
+	}
+		System.out.print("the sum of all even numbers is: " + sum);
+	}
+
+}

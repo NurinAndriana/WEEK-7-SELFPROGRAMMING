@@ -1,0 +1,29 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  Scanner in = new Scanner(System.in);
+		// calculate and display the average for the first 30 positive integers
+		
+		int num;
+		int counter =1;
+		double average;
+		int total =0;
+		
+	  while(counter<=30) {
+		  
+		  total = total + counter;
+		   counter++;
+		   
+		  
+	  }
+	  
+	  average = total/30;
+	  
+	  System.out.println("the average of first 30 positive integers is: " + average);
+		
+	}
+
+}

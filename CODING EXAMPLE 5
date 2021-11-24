@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class Example5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	 // print odd numbers from 3 to 39.
+		
+		for(int i = 3; i<=39; i= i+2) {
+		    System.out.println("i = " +i);
+		    }
+		    
+		
+		
+		
+	}
+
+}

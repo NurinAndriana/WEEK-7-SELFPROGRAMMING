@@ -1,0 +1,36 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// print the square of 10 numbers entered
+     Scanner in = new Scanner(System.in);
+     
+       int num1;
+       int square;
+       int counter =0;
+       
+       do {
+    	  System.out.print("");
+    	  System.out.print("Please enter a number: ");
+    	  num1 = in.nextInt();
+    	  
+    	  square = num1*num1;
+    	  
+    	  
+    	  System.out.println("the square of number is :" +square);
+    	  System.out.println("");
+    	  counter = counter+1;
+    	  
+       }  while (counter<10);
+       
+       }
+ 
+ 
+ 
+ 
+ 
+	}
+
+

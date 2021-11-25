@@ -1,0 +1,8 @@
+Enter an integer: 13
+INSIDE LOOPING
+ 
+Enter an integer: 66
+INSIDE LOOPING
+ 
+Enter an integer: -1
+Sentinel value detected. Good bye

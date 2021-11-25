@@ -1,0 +1,25 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Example10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner in = new Scanner(System.in);
+
+    int choice;
+    
+    System.out.print("Enter an integer: ");
+    choice = in.nextInt();
+    
+    while(choice!=-1) {
+    	
+    	System.out.println("INSIDE LOOPING");
+    	System.out.println(" ");
+    	System.out.print("Enter an integer: ");
+    	choice = in.nextInt();
+    }
+       System.out.println("Sentinel value detected. Good bye");
+
+	}
+
+}

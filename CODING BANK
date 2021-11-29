@@ -1,0 +1,58 @@
+package exercise;
+import java.util.Scanner;
+public class Exercise1 {
+
+	public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	
+	int pass;
+	int pass_ori = 123456;
+	String name;
+	int x =1;
+	
+	System.out.print("Please enter your name: ");
+	name = in.nextLine();
+	System.out.print("Please enter your password: ");
+	pass = in.nextInt();
+	
+	if(pass==pass_ori) {
+		
+		System.out.println("*****************************");
+		System.out.println("WELCOME TO MAIN MENU " + name);
+		System.out.println("*****************************");}
+	
+	
+	else {
+		
+		 for(x=1; x<=3; x++) {
+			 
+			 
+			  if (pass!=pass_ori) {
+				 System.out.println("try again!!");
+			     System.out.println("");
+			  
+			     System.out.print("Please re-enter your password: ");
+			 pass = in.nextInt();}
+			 
+			 
+			 else {
+		     
+	            System.out.println("*****************************");
+				System.out.println("WELCOME TO MAIN MENU " + name);
+				System.out.println("*****************************");}
+		 
+		 }}
+	       
+	        if ((x>3)&&(pass!=pass_ori))
+			System.out.println("your card is invalid!");
+		
+		
+			
+	}}
+
+          
+      
+	
+
+
+
